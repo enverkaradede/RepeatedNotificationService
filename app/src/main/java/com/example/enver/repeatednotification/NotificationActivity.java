@@ -9,6 +9,8 @@ public class NotificationActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Bildirime basıldıktan sonra yönlendirileceği sayfanın tanımlanması
         setContentView(R.layout.notification_activity);
     }
 }
